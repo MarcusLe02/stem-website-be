@@ -1,0 +1,42 @@
+{
+  "kind": "collectionType",
+  "collectionName": "examples",
+  "info": {
+    "singularName": "example",
+    "pluralName": "examples",
+    "displayName": "Example",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "appear": {
+      "type": "integer"
+    },
+    "continent": {
+      "type": "enumeration",
+      "enum": [
+        "Africa",
+        "Asia",
+        "Americas",
+        "Europe",
+        "Oceania"
+      ]
+    },
+    "dob": {
+      "type": "date"
+    },
+    "password": {
+      "type": "password"
+    },
+    "value": {
+      "type": "boolean"
+    }
+  }
+}
