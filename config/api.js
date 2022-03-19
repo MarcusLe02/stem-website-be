@@ -1,7 +1,10 @@
 module.exports = {
+  responses: {
+    privateAttributes: ['_v', 'id', 'createdAt', 'updatedAt', 'publishedAt'],
+  },
   rest: {
-    defaultLimit: 25,
-    maxLimit: 100,
+    defaultLimit: 1000000,
+    maxLimit: null,
     withCount: true,
   },
 };
